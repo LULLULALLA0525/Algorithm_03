@@ -446,7 +446,7 @@ def plot_value_array(i, predictions_array, true_label):
   plot_value_array(i, pred,  test_labels)
   plt.show()
 ```
-![plot image (2)](https://user-images.githubusercontent.com/69046742/173229905-7b81b3f0-1408-4a81-905a-c802a345a518.png)
+![plot image (3)](https://user-images.githubusercontent.com/69046742/173230006-27af6fa3-5c80-43be-97ee-dae32d3d7e23.png)
 
 ```python
 num_rows = 5
@@ -461,7 +461,7 @@ for i in range(num_images):
 plt.show()
 ```
 
-![plot images (2)](https://user-images.githubusercontent.com/69046742/173229907-451fac7d-8739-4fd6-8bd0-293962856e79.png)
+![plot images (3)](https://user-images.githubusercontent.com/69046742/173230007-41d03cab-7b0f-4a1f-b3bb-5a7640667cf7.png)
 
 ### Find index of wrong prediction
 ### Plot first 10 wrong predicted images and probability
@@ -473,7 +473,7 @@ print(index[:10])
 ```
 
 ```
-[62, 96, 149, 241, 320, 321, 359, 448, 468, 497]
+[115, 175, 326, 435, 445, 449, 646, 659, 667, 720]
 ```
 
 ```python
